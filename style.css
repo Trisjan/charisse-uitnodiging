@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  --primeColor: #fff8ff;
+  --secColor: #cb6ce6;
+  --primeText: #000000;
+  --secText: #737373;
+
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.front-card {
+  background-color: var(--primeColor);
+}
+
+
+/* Tablet schermen */
+@media (min-width: 31em) {
+
+}
+
+
+/* Desktop schermen */
+@media (min-width: 45em) {
+
+}
