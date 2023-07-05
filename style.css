@@ -4,21 +4,92 @@
 
   --primeColor: #fff8ff;
   --secColor: #cb6ce6;
+  --secColorShadow: #5a0073;
   --primeText: #000000;
   --secText: #737373;
 
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
+  max-width: 100%;
 }
 
 body {
   min-height: 100vh;
   min-width: 100vw;
+  background-color: black;
 }
 
 .front-card {
   background-color: var(--primeColor);
+  width: 80%;
+  margin: 2rem 4rem;
 }
 
+.name_picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name_picture .name {
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-top: 2rem;
+  color: var(--secColor);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--secColorShadow);
+}
+
+.name span {
+  display: inline-block;
+}
+
+.name_picture .c {
+  transform: translate(32px, 3.9rem) rotate(-50deg);
+}
+
+.name_picture .h {
+  transform: translate(15px, 2.3rem) rotate(-38deg);
+}
+
+.name_picture .a {
+  transform: translate(6px, 1rem) rotate(-22deg);
+}
+
+.name_picture .r {
+  transform: translate(0px, 8px) rotate(0deg);
+}
+
+.name_picture .i {
+  transform: translate(-6px, 10px) rotate(12deg);
+}
+
+.name_picture .s1 {
+  transform: translate(-14px, 1.2rem) rotate(18deg);
+}
+
+.name_picture .s2 {
+  transform: translate(-26px, 2.2rem) rotate(40deg);
+}
+
+.name_picture .e {
+  transform: translate(-43px, 3.55rem) rotate(50deg);
+}
+
+.name_picture .birthday_text .number {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--secColor);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--secColorShadow);
+}
+
+.name_picture img {
+  height: 220px;
+  width: 220px;
+  object-fit: cover;
+  border-radius: 15rem;
+}
 
 /* Tablet schermen */
 @media (min-width: 31em) {
